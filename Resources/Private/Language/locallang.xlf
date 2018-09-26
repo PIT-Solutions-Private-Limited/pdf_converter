@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-09-20T05:42:38Z" product-name="pdf_converter">
+		<header/>
+		<body>
+			<trans-unit id="tx_pdfconverter_domain_model_converter">
+				<source>Converter</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
