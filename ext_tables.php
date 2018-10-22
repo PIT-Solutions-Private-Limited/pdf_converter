@@ -19,12 +19,12 @@ call_user_func(
                 'pdfconverter', // Submodule key
                 '', // Position
                 [
-                    'Converter' => 'uriBuild','pdfConversion','htmltopdf','listAction',
+                    'Converter' => 'uriBuild,list,invalidPage',
                     
                 ],
                 [
                     'access' => 'user,group',
-                    'icon'   => 'EXT:pdf_converter/Resources/Public/Icons/user_mod_pdfconverter.svg',
+                    'icon'   => 'EXT:pdf_converter/Resources/Public/Icons/ext_icon.png',
                     'labels' => 'LLL:EXT:pdf_converter/Resources/Private/Language/locallang_pdfconverter.xlf',
                 ]
             );
