@@ -1,0 +1,28 @@
+{
+    "name": "pits/pdf-converter",
+    "type": "typo3-cms-extension",
+    "description": "a backend module that converts a standard page in page tree to pdf.",
+    "authors": [
+        {
+            "name": "Kasim Sabah",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PITS\\PdfConverter\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PITS\\PdfConverter\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "pdf_converter": "self.version",
+        "typo3-ter/pdf-converter": "self.version"
+    }
+}

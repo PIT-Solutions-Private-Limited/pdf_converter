@@ -1,0 +1,112 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    75,
+                    89
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": []
+                },
+                "name": "Converter",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "skipTypeConfiguration": false,
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "1196122013958"
+                },
+                "propertyGroup": {
+                    "properties": []
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "converter => pdfConversion"
+                },
+                "description": "a backend module that converts a standard page in page tree to pdf.",
+                "key": "pdfconverter",
+                "mainModule": "web",
+                "name": "pdf converter",
+                "tabLabel": "PDF converter"
+            },
+            {
+                "actions": {
+                    "controllerActionCombinations": "converter => pdfConversion"
+                },
+                "description": "a backend module that converts a standard page in page tree to pdf.",
+                "key": "pdfconvert",
+                "mainModule": "web",
+                "name": "pdf converter",
+                "tabLabel": "PDF converter"
+            }
+        ],
+        "description": "a backend module that converts a standard page in page tree to pdf.",
+        "emConf": {
+            "category": "module",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "pdf_converter",
+        "name": "Page to Pdf",
+        "originalExtensionKey": "pdf_converter",
+        "originalVendorName": "PITS",
+        "persons": [
+            {
+                "company": "PIT solutions",
+                "email": "kasim,sm@pitsolutions.com",
+                "name": "Kasim Sabah",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "description": "",
+                "key": "converterpdf",
+                "name": "converter"
+            }
+        ],
+        "vendorName": "PITS"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2018-09-20 05:42",
+        "extension_builder_version": "8.10.2",
+        "be_user": " (1)"
+    }
+}
